@@ -1,0 +1,11 @@
+.mountain{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.mountain:hover{
+  background-color: gray;
+  border-bottom: 1px solid rgb(20,50,60) ;
+  color: rgb(20,50,60);
+}
+

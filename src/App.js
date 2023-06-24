@@ -1,0 +1,20 @@
+import React from 'react'
+import './App.css'
+import Home from './components/Home'
+import {Route, Routes} from 'react-router-dom'
+import History from './components/History'
+import Team from './components/Team'
+import Header from './components/Header'
+
+const App = () => {
+  return (
+    <div>
+    <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
+    </div>
+  )
+}
+
+export default App
